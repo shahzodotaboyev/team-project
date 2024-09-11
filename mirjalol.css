@@ -59,6 +59,7 @@
   }
   .arrow_down i {
     color: #fff;
+    transition: all ease 0.3s;
   }
   .arrow_down i:hover {
     color: blue;
