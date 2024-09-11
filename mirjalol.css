@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    padding: 20px;
+  }
+  
+  .promation_section {
+    padding: 2rem;
+  }
+  
+  .promation_section_letters_page {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  
+  .promation_section_head p {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .promation_section_head hr {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    border: none;
+    margin: 0.5rem 0;
+  }
+  
+  .peomation_section_dowload {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .peomation_section_dowload .arrow_down {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: blue;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all ease 0.3s;
+  }
+  .peomation_section_dowload .arrow_down:hover {
+    background-color: #fff;
+    border: 2px solid blue;
+  }
+  .arrow_down i {
+    color: #fff;
+  }
+  .arrow_down i:hover {
+    color: blue;
+  }
+  .peomation_section_dowload h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  .peomation_section_dowload .promation_section_img img {
+    width: 50px;
+  }
+  
+  .peomation_section_dowload a {
+    font-size: 1.2rem;
+    color: blue;
+    text-decoration: none;
+  }
+  
+  .peomation_section_dowload a:hover {
+    text-decoration: underline;
+  }
+  
+  .h_p_typographs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .heading_cont h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .paragraph p {
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+  }
+  
+  .two_label_cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .first_label_cont .grey_lebel_p {
+    color: gray;
+    font-size: 1.1rem;
+  }
+  
+  .first_label_cont .simple_lebel_p {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  .paragraph_down_p p {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .color_cont {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(183px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .color_cont_color {
+    width: 183px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: gray;
+  }
+  
+  .color_cont_color_1 {
+    background-color: #ff0000;
+  }
+  .color_cont_color_2 {
+    background-color: #00ff00;
+  }
+  .color_cont_color_3 {
+    background-color: #0000ff;
+  }
+  .color_cont_color_4 {
+    background-color: #ffff00;
+  }
+  .color_cont_color_5 {
+    background-color: #ff00ff;
+  }
+  .color_cont_color_6 {
+    background-color: #00ffff;
+  }
+  .color_cont_color_7 {
+    background-color: #000000;
+  }
+  
+  .button_cont .button_cont_first_p {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .four_buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
+  
+  .four_buttons div {
+    padding: 1rem 2rem;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease;
+    border-radius: 400px;
+  }
+  
+  .four_buttons div:hover {
+    background-color: #555;
+  }
+  
+  /* Tablet Styles */
+  @media (max-width: 768px) {
+    .promation_section_letters_page {
+      padding: 1rem;
+    }
+  
+    .promation_section_head p {
+      font-size: 1.5rem;
+    }
+  
+    .peomation_section_dowload {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+  
+    .peomation_section_dowload .arrow_down {
+      font-size: 2rem;
+      margin-left: 45%;
+    }
+  
+    .peomation_section_dowload h1 {
+      font-size: 2rem;
+    }
+  
+    .peomation_section_dowload .promation_section_img img {
+      width: 40px;
+    }
+  
+    .peomation_section_dowload a {
+      font-size: 1rem;
+    }
+  
+    .h_p_typographs {
+      grid-template-columns: 1fr;
+    }
+  
+    .heading_cont h1 {
+      font-size: 2rem;
+    }
+  
+    .paragraph p {
+      font-size: 1rem;
+    }
+  
+    .two_label_cont {
+      grid-template-columns: 1fr;
+    }
+  
+    .color_cont {
+      grid-template-columns: repeat(3, 2fr);
+    }
+  
+    .color_cont_color {
+      width: 150px;
+      height: 80px;
+    }
+    .color_cont_color_7 {
+      display: none !important;
+    }
+    .four_buttons {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .four_buttons div {
+      padding: 1rem;
+    }
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 480px) {
+    .promation_section_letters_page {
+      padding: 0.5rem;
+    }
+  
+    .promation_section_head p {
+      font-size: 1.2rem;
+    }
+  
+    .peomation_section_dowload .arrow_down {
+      font-size: 1.5rem;
+    }
+  
+    .peomation_section_dowload h1 {
+      font-size: 1.5rem;
+    }
+  
+    .peomation_section_dowload .promation_section_img img {
+      width: 30px;
+    }
+  
+    .peomation_section_dowload a {
+      font-size: 0.9rem;
+    }
+  
+    .heading_cont h1 {
+      font-size: 1.5rem;
+    }
+  
+    .paragraph p {
+      font-size: 0.9rem;
+    }
+  
+    /* Mobil qurilmalar uchun: 2 ustun, 2 qator */
+    @media (max-width: 480px) {
+      .color_cont {
+        grid-template-columns: repeat(2, 140px); /* 2 ustun */
+        grid-template-rows: repeat(2, auto); /* 2 qator */
+        column-gap: 10px;
+      }
+      .color_cont_color {
+        width: 120px;
+        height: 80px;
+      }
+    }
+  
+    /* Tabletlarga moslash: 2 ustun, 3 qator */
+    @media (min-width: 481px) and (max-width: 768px) {
+      .color_cont {
+        grid-template-columns: repeat(2, 1fr); /* 2 ustun */
+        grid-template-rows: repeat(3, auto); /* 3 qator */
+      }
+    }
+  
+    /* Desktop ko'rinishida: 4 ustun, qator avtomatik */
+  
+    .color_cont_color_5,
+    .color_cont_color_6,
+    .color_cont_color_7 {
+      display: none;
+    }
+    .button_cont .button_cont_first_p {
+      font-size: 1.2rem;
+    }
+  
+    .four_buttons {
+      grid-template-columns: 1fr;
+    }
+  
+    .four_buttons div {
+      padding: 0.5rem 1rem;
+    }
+  }
+  @media (min-width: 0px) and (max-width: 350px) {
+    .color_cont {
+      grid-template-columns: repeat(1, 1fr); /* 2 ustun */
+      grid-template-rows: repeat(4, auto); /* 3 qator */
+    }
+  }
+  
